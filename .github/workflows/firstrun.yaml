@@ -4,7 +4,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 Good job!“
+
       - name: Echo OS of build agent
         run: | 
           echo "The build agent uses OS: $RUNNER_OS“
