@@ -7,4 +7,4 @@ jobs:
 
       - name: Echo OS of build agent
         run: | 
-          echo 'The build agent uses OS: ' + $RUNNER_OS
+          echo "The build agent uses OS: $RUNNER_OS"
