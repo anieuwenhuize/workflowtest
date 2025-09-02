@@ -1,10 +1,10 @@
 name: GitHub Actions Demo
 on: [push]
-jobs: 
+jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
 
       - name: Echo OS of build agent
         run: | 
-          echo "The build agent uses OS: $RUNNER_OS“
+          echo 'The build agent uses OS: $RUNNER_OS'
